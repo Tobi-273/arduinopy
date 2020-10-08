@@ -30,3 +30,4 @@ def choose_and_plot(x='Timestamp', y='Value', title='Measurements'):
 
 
 choose_and_plot(title='Messwerte')
+
