@@ -27,7 +27,3 @@ def choose_and_plot(x='Timestamp', y='Value', title='Measurements'):
     Expects the same kwargs as plot_from_file, see docstring"""
     file_path = choose()
     plot_from_csv(file_path, x=x, y=y, title=title)
-
-
-choose_and_plot(title='Messwerte')
-

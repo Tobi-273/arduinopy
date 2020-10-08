@@ -62,6 +62,3 @@ def time_and_datalog(file_basename='DataLog', com='COM3', encoding='ascii', baud
 
             arduino_frame = create_dataframe(time_list, values_list, name_1=x_name, name_2=y_name)
             arduino_frame.to_csv(filename)
-
-
-time_and_datalog()
